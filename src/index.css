@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+* {
+  cursor: none;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+.dark {
+  background-color: #0a0a0a;
+  color: white;
+}
