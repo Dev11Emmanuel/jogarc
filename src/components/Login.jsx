@@ -56,12 +56,14 @@ const Signup = () => {
               <User
                 size={18}
                 className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"
+                required
               />
 
               <input
                 type="text"
                 placeholder="Full Name"
                 className="w-full bg-white/10 border border-white/10 rounded-xl py-3 pl-12 pr-4 outline-none focus:border-cyan-400"
+                required
               />
             </div>
 
@@ -87,6 +89,7 @@ const Signup = () => {
               <input
                 type="password"
                 placeholder="Password"
+                required
                 className="w-full bg-white/10 border border-white/10 rounded-xl py-3 pl-12 pr-4 outline-none focus:border-cyan-400"
               />
             </div>
