@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 import Login from "./components/Login";
 import Explore from "./pages/Explore";
 import Services from "./pages/Services";
-// import Blog from "./pages/Blog";
+import Blog from "./pages/Blog";
 import { useState } from "react";
 
 function App() {
@@ -109,7 +109,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/services" element={<Services />} />
         <Route path="/explore" element={<Explore works={works} />} />
-        {/* <Route path="/blog" element={<Blog />} /> */}
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </Router>
   );
